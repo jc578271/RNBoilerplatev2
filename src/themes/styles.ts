@@ -7,7 +7,7 @@ import {StatusBar} from 'react-native';
 
 export const statusBarHeight = isIphoneX()
   ? getStatusBarHeight()
-  : StatusBar.currentHeight || 14;
+  : StatusBar.currentHeight || 20;
 
 export const bottomSpaceHeight = isIphoneX() ? getBottomSpace() : 16;
 
