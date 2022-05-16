@@ -286,6 +286,7 @@ dependencies {
    }
    implementation 'com.google.android.gms:play-services-base:18.0.1'
    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'androidx.work:work-runtime-ktx:2.7.0'
 }
 
 if (isNewArchitectureEnabled()) {
